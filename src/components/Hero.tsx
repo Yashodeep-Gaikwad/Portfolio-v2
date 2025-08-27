@@ -52,8 +52,8 @@ const Hero = () => {
             <div className="max-w-5xl mx-auto space-y-8">
               <div className="space-y-4">
                 <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold leading-tight">
-                  <span className="block text-foreground/90 text-2xl md:text-3xl lg:text-4xl font-normal mb-2 tracking-wide">Hello, I'm</span>
-                  <span className="block text-gradient animated-gradient bg-clip-text text-transparent bg-gradient-to-r from-electric-blue via-neon-green to-purple-500 bg-size-200 animate-gradient">
+                  <span className="block text-foreground text-2xl md:text-3xl lg:text-4xl font-normal mb-4 tracking-wide">Hello, I'm</span>
+                  <span className="block text-gradient font-extrabold tracking-tight">
                     Yashodeep Gaikwad
                   </span>
                 </h1>
