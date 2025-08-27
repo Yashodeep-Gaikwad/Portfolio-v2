@@ -31,18 +31,18 @@ const Hero = () => {
             {/* Enhanced Profile Image */}
             <div className="mb-12 flex justify-center">
               <div className="relative group">
-                <div className="absolute -inset-1 bg-gradient-to-r from-electric-blue via-neon-green to-purple-500 rounded-full blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
-                <div className="relative w-56 h-56 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-white/20 backdrop-blur-sm">
+                <div className="absolute -inset-2 bg-gradient-to-r from-electric-blue via-neon-green to-purple-500 rounded-full blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
+                <div className="relative w-48 h-48 md:w-56 md:h-56 lg:w-64 lg:h-64 rounded-full overflow-hidden border-4 border-white/20 backdrop-blur-sm">
                   <img
                     src={profileImage}
-                    alt="Yashodeep Mahendra Gaikwad"
-                    className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
+                    alt="Yashodeep Gaikwad"
+                    className="w-full h-full object-cover object-center transform group-hover:scale-105 transition-transform duration-500"
                   />
                   <div className="absolute inset-0 bg-gradient-to-tr from-electric-blue/10 to-neon-green/10"></div>
                 </div>
                 
                 {/* Floating badge */}
-                <div className="absolute -top-2 -right-2 bg-gradient-to-r from-electric-blue to-neon-green p-2 rounded-full shadow-lg animate-bounce">
+                <div className="absolute -top-3 -right-3 bg-gradient-to-r from-electric-blue to-neon-green p-2 rounded-full shadow-lg animate-bounce">
                   <Sparkles className="w-4 h-4 text-white" />
                 </div>
               </div>
@@ -54,10 +54,7 @@ const Hero = () => {
                 <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold leading-tight">
                   <span className="block text-foreground/90 text-2xl md:text-3xl lg:text-4xl font-normal mb-2 tracking-wide">Hello, I'm</span>
                   <span className="block text-gradient animated-gradient bg-clip-text text-transparent bg-gradient-to-r from-electric-blue via-neon-green to-purple-500 bg-size-200 animate-gradient">
-                    Yashodeep
-                  </span>
-                  <span className="block text-gradient animated-gradient bg-clip-text text-transparent bg-gradient-to-r from-purple-500 via-electric-blue to-neon-green bg-size-200 animate-gradient" style={{ animationDelay: '0.5s' }}>
-                    Mahendra Gaikwad
+                    Yashodeep Gaikwad
                   </span>
                 </h1>
                 
