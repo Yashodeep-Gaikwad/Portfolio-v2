@@ -1,6 +1,6 @@
 import { ArrowRight, Download, Sparkles } from 'lucide-react';
 import { Button } from './ui/button';
-import profileImage from '@/assets/yashodeep-profile.jpg';
+import profileImage from '@/assets/yashodeep-new-profile.jpg';
 
 const Hero = () => {
   const scrollToContact = () => {
