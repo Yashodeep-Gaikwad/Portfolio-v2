@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Mail, Phone, MapPin, Linkedin, Github, Send } from 'lucide-react';
+import { Mail, Phone, MapPin, Linkedin, Github, Instagram, Send } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
 import { Button } from './ui/button';
 import { Input } from './ui/input';
@@ -80,6 +80,12 @@ const Contact = () => {
       label: "GitHub",
       url: "https://github.com/Yashodeep-Gaikwad",
       color: "hover:text-purple-500"
+    },
+    {
+      icon: Instagram,
+      label: "Instagram",
+      url: "https://www.instagram.com/yashodeep_gaikwad_03?igsh=aG9yMXFuaGw5YTQz",
+      color: "hover:text-pink-500"
     }
   ];
 
