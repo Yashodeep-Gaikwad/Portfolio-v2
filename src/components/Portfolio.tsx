@@ -33,7 +33,7 @@ const Portfolio = () => {
         "Cross-device compatibility"
       ],
       links: {
-        github: "#",
+        github: "https://github.com/Yashodeep-Gaikwad/YTunes_Music-Player-v1.0/tree/main",
         website: "https://y-tunes.netlify.app/"
       },
       gradient: "from-purple-500/20 to-pink-500/20"
