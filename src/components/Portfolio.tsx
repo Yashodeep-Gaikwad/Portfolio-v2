@@ -16,7 +16,7 @@ const Portfolio = () => {
         "Data-driven health insights"
       ],
       links: {
-        github: "#",
+        github: "https://github.com/Yashodeep-Gaikwad/Medicine-Recommendation-System/tree/main",
         website: "https://wellness-weave.netlify.app/"
       },
       gradient: "from-green-500/20 to-blue-500/20"
