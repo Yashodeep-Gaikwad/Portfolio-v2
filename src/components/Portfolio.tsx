@@ -34,7 +34,7 @@ const Portfolio = () => {
       ],
       links: {
         github: "#",
-        website: "#"
+        website: "https://y-tunes.netlify.app/"
       },
       gradient: "from-purple-500/20 to-pink-500/20"
     },
