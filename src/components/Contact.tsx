@@ -84,7 +84,7 @@ const Contact = () => {
     {
       icon: Instagram,
       label: "Instagram",
-      url: "https://www.instagram.com/yashodeep_gaikwad_03?igsh=aG9yMXFuaGw5YTQz",
+      url: "https://www.instagram.com/yashodeep_gaikwad_03/",
       color: "hover:text-pink-500"
     }
   ];
