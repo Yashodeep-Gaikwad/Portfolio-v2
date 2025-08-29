@@ -17,7 +17,7 @@ const Portfolio = () => {
       ],
       links: {
         github: "#",
-        website: "#"
+        website: "https://wellness-weave.netlify.app/"
       },
       gradient: "from-green-500/20 to-blue-500/20"
     },
