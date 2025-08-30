@@ -90,10 +90,11 @@ const Hero = () => {
                 <Button
                   variant="outline"
                   size="lg"
+                  onClick={() => window.open('https://drive.google.com/file/d/1TjQkl_14G3jwVwX_DuDPIdur6Gl28ykZ/view?usp=drive_link', '_blank')}
                   className="group relative border-2 border-electric-blue/50 text-electric-blue hover:bg-electric-blue/10 hover:border-electric-blue hover:shadow-lg hover:shadow-electric-blue/20 hover:scale-105 transition-all duration-500 px-10 py-7 text-lg rounded-full backdrop-blur-sm bg-white/5"
                 >
                   <span className="flex items-center">
-                    Download CV
+                    Resume
                     <Download className="ml-3 h-5 w-5 group-hover:translate-y-1 transition-transform duration-300" />
                   </span>
                 </Button>
