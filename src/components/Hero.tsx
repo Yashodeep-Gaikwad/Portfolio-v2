@@ -103,12 +103,12 @@ const Hero = () => {
               {/* Stats or badges */}
               <div className="flex flex-wrap justify-center gap-6 pt-8">
                 <div className="backdrop-blur-sm bg-white/5 rounded-full px-6 py-3 border border-white/10">
-                  <span className="text-electric-blue font-semibold">5+</span>
-                  <span className="text-muted-foreground ml-2">Projects</span>
+                  <span className="text-electric-blue font-semibold">4+</span>
+                  <span className="text-muted-foreground ml-2">Projects Completed</span>
                 </div>
                 <div className="backdrop-blur-sm bg-white/5 rounded-full px-6 py-3 border border-white/10">
-                  <span className="text-neon-green font-semibold">3+</span>
-                  <span className="text-muted-foreground ml-2">Years Learning</span>
+                  <span className="text-neon-green font-semibold">1+</span>
+                  <span className="text-muted-foreground ml-2">Years of Experience</span>
                 </div>
                 <div className="backdrop-blur-sm bg-white/5 rounded-full px-6 py-3 border border-white/10">
                   <span className="text-purple-400 font-semibold">∞</span>
