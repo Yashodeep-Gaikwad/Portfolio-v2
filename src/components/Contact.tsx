@@ -37,10 +37,16 @@ const Contact = () => {
       return;
     }
 
-    // Simulate form submission
+    // Create WhatsApp message with form data
+    const whatsappMessage = `Name: ${formData.name}%0AEmail: ${formData.email}%0ASubject: ${formData.subject || 'No subject'}%0AMessage: ${formData.message}`;
+    const whatsappUrl = `https://api.whatsapp.com/send?phone=917756898800&text=${whatsappMessage}`;
+
+    // Redirect to WhatsApp
+    window.open(whatsappUrl, '_blank');
+
     toast({
-      title: "Message Sent!",
-      description: "Thank you for your message. I'll get back to you soon.",
+      title: "Redirecting to WhatsApp!",
+      description: "You'll be redirected to WhatsApp to send your message.",
     });
 
     // Reset form
