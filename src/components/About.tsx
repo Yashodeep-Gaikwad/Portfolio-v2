@@ -92,13 +92,13 @@ const About = () => {
           <div className="grid grid-cols-2 gap-6">
             <Card className="card-gradient hover-lift">
               <CardContent className="p-6 text-center">
-                <div className="text-3xl font-bold text-primary mb-2">3+</div>
+                <div className="text-3xl font-bold text-primary mb-2">1+</div>
                 <div className="text-muted-foreground">Years of Experience</div>
               </CardContent>
             </Card>
             <Card className="card-gradient hover-lift">
               <CardContent className="p-6 text-center">
-                <div className="text-3xl font-bold text-primary mb-2">10+</div>
+                <div className="text-3xl font-bold text-primary mb-2">4+</div>
                 <div className="text-muted-foreground">Projects Completed</div>
               </CardContent>
             </Card>
