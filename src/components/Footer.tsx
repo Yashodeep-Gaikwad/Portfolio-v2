@@ -9,11 +9,9 @@ const Footer = () => {
         <div className="text-center space-y-4">
           {/* Main text */}
           <p className="text-muted-foreground flex items-center justify-center gap-2 flex-wrap">
-            <span>Made with</span>
             <Heart className="h-4 w-4 text-red-500 animate-pulse" />
-            <span>and</span>
             <Code className="h-4 w-4 text-primary" />
-            <span>by Yashodeep Mahendra Gaikwad</span>
+            <span>Yashodeep Mahendra Gaikwad</span>
           </p>
           
           {/* Copyright */}
