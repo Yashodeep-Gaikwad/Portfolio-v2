@@ -18,11 +18,6 @@ const Footer = () => {
           <p className="text-sm text-muted-foreground">
             © {currentYear} Yashodeep Gaikwad. All rights reserved.
           </p>
-          
-          {/* Tech stack note */}
-          <p className="text-xs text-muted-foreground">
-            Built with React, TypeScript, and Tailwind CSS
-          </p>
         </div>
       </div>
     </footer>
